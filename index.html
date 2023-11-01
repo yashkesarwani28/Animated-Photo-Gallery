@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--Aos library api-->
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Photo<span>Gen</span>X
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Login</a>
+            </div>
+        </nav>
+
+    </header>
+    <section class="h-text">
+        <i class="fa fa-camera" id="camera"></i>
+        <h1 data-aos ="zoom-in">Capturing the moments that captivate your heart.</h1>
+        <input type="text" name="" placeholder="Search here...">
+        <button><i class="fa fa-search"></i></button>
+
+
+    </section>
+    <section class="filter-gallery">
+        <div class="portfolio">
+            <ul>
+                <li class="active" data-filter="*">All</li>
+                <li data-filter=".nature">Nature</li>
+                <li data-filter=".fashion">Fashion</li>
+                <li data-filter=".Wedding">Wedding</li>
+            </ul>
+        </div>
+        <div class="portfolio-item">
+            <div class="item nature" data-aos="flip-left"data-aos-offset="100" data-aos-delay="100">
+                <img src="img/p1.jpg" width="100" height="100">
+            </div>
+            <div class="item fashion"data-aos="flip-left"data-aos-offset="100"data-aos-delay="200">
+                <img src="img/p2.jpg" width="100" height="100">
+            </div>
+            <div class="item wedding"data-aos="flip-left"data-aos-offset="100"data-aos-delay="300">
+                <img src="img/p3.jpg" width="100" height="100">
+            </div>
+
+            
+            <div class="item nature"data-aos="zoom-in-right"  data-aos-delay="100">
+                <img src="img/p4.jpg" width="100" height="100">
+            </div>
+            <div class="item fashion"data-aos="zoom-in-right"  data-aos-delay="200">
+                <img src="img/p5.jpg" width="100" height="100">
+            </div>
+            <div class="item wedding"data-aos="zoom-in-right"  data-aos-delay="300">
+                <img src="img/p6.jpg" width="100" height="100">
+            </div>
+
+
+            <div class="item nature"data-aos="zoom-in-left"  data-aos-delay="100">
+                <img src="img/p7.jpg" width="100" height="100">
+            </div>
+            <div class="item fashion"data-aos="zoom-in-left"  data-aos-delay="200">
+                <img src="img/p8.jpg" width="100" height="100">
+            </div>
+            <div class="item wedding"data-aos="zoom-in-left"  data-aos-delay="300">
+                <img src="img/p9.jpg" width="100" height="100">
+            </div>
+        </div>
+    </section>
+
+    <section class="member">
+        <div class="member-info" data-aos="zoom-in-up"  data-aos-delay="100">
+            <h1>Our <span> Informations</span></h1>
+            <p>What our member says</p>
+        </div>
+
+        <div class="member-card"data-aos="zoom-in-up"  >
+            <img src="img/member.png">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam error fugiat quia. Illo, voluptate repudiandae hic necessitatibus laborum placeat excepturi aliquam neque esse assumenda nostrum? Excepturi, maxime. Aspernatur, vitae autem!</p>
+            <h2>* Maria Sharapova</h2>
+            <img src="img/icon1.png"width="100">
+            <img src="img/icon2.png"width="100">
+            <img src="img/icon3.png"width="100">
+            <img src="img/icon4.png"width="100">
+        </div> 
+        <div class="m-images"data-aos="zoom-in-down"  >
+            <img src="img/s1.jpg">
+            <img src="img/s2.jpg">
+            <img src="img/s3.jpg">
+            <img src="img/s4.jpg">
+            <img src="img/s5.jpg">
+            <img src="img/s6.jpg">
+        </div>
+
+    </section>
+    <footer>
+
+        <div class="newsletter"data-aos="zoom-in-up"  >
+            <div>
+                <h2>Subscribe our newsletter</h2>
+                <p> We're a team of non-synics who truly care for our work.</p>
+            </div>
+            <div class="ntext"data-aos="zoom-in-up" data-aos-offset="100">
+                <label>
+                    <input type="text"name="" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </label>
+            </div>
+        </div>
+        <div class="f-contact"data-aos="zoom-in-down" >
+            <div >
+                <h1>Information</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+                <h1>Useful Links</h1>
+                <p>About Us</p>
+                <p>Gallery</p>
+                <p>Blogs posts</p>
+                <p>Pricing plans</p>
+            </div>
+            <div>
+                <h1>Details</h1>
+                <p>Photographers</p>
+                <p>Gallery</p>
+                <p>About</p>
+                <p>Pricing plans</p>
+            </div>
+            <div>
+                <h1>Help & Support</h1>
+                <p>Privacy policy</p>
+                <p>terms & conditions</p>
+                <p>Technical support</p>
+                <p>Customer care</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js">
+    </script>
+    <script>
+        $('.portfolio-item').isotope({
+    // options
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
+  $('.portfolio ul li').click(function(){
+    $('.portfolio ul li').removeClass('active');
+    $(this).addClass('active');
+  
+  var selector=$(this).attr('data-filter');
+  $('.portfolio-item').isotope({
+    filter:selector
+  });
+  return false;
+})
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+</html>
